@@ -410,4 +410,17 @@
         font-size: 3rem;
         text-align: center;
     }
+    .inout{
+        margin-left: -75%;
+    }
+    .contact h2{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    .contact .contact-cont{
+        font-size: 1.2rem;
+    }
+    .contact .contact-cont input{
+        font-size: 1rem;
+    }
 }
