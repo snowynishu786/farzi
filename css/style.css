@@ -157,14 +157,16 @@
 
 
 
-.home{ 
+.home{
     width: 100%;
-    height: 100vh;
+    height:1500px;
     background-image: linear-gradient(to right top, #6a97a1, #4d93ac, #2f8db8, #1a85c4, #2e7acd);
     background-size: cover;
     display: flex;
     background-position-y: center;
-    margin: auto;
+    position: fixed;
+    z-index: -1;
+    margin-top: -3rem;
 }
 
 .home-contain{
@@ -193,6 +195,10 @@
     justify-content: center;
     align-content: center;
     margin: 30px 5px 20px 5px;
+    position: relative;
+    top: 1100px;
+    margin-bottom: 1300px;
+    background-color: white;
 }
 .about h2{
     font-size: 50px;
@@ -223,9 +229,6 @@
     align-items: center;
     display: flex;
 }
-
-ye kahi nahi hai 
-
 
 .about-image{
     width: 45%;
@@ -348,6 +351,8 @@ ye kahi nahi hai
     justify-content: center;
     align-content: center;
     margin: 30px 5px 20px 5px;
+    background-color: white;
+    margin-top: -200
 }
 .Qualification h2{
     font-size: 50px;
@@ -405,6 +410,13 @@ ye kahi nahi hai
         padding: 0px;
     }
 }
+
+.Skills{
+    background-color: white;
+    margin-top: -3rem;
+    margin-bottom: -2.5rem;
+}
+
 .Skills h2{
     font-size: 50px;
     text-align: center;
@@ -544,8 +556,8 @@ ye kahi nahi hai
 }
 
 @media (max-width: 576px){
-    section.aboutcontent p.align{
-        font-size: 5rem;
+    .home{
+        height: 100px;
     }
 }
 
